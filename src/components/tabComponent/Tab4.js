@@ -1,51 +1,78 @@
 import React, { useEffect, useRef, useState } from "react";
+import { quiz } from "./quiz";
 
 const Tab4 = () => {
-  const [searchTXT, setsearchTXT] = useState("");
-  const inputRef = useRef([]);
-  const divRef = useRef([]);
-  const list = ["일번", "이번", "삼번", "사번", "일이번"];
-
-  const onchangeTxtHandler = (e) => {
-    setsearchTXT(e.target.value);
-    for (let i = 0; i < divRef.current.length; i++) {
-      if (e.target.value === "") {
-        divRef.current[i].style.display = "";
-      }else if(!inputRef.current[i].value.includes(e.target.value.toUpperCase())&& !inputRef.current[i].id.includes(e.target.value)){
-        //   console.log(inputRef.current[i].id);
-        divRef.current[i].style.display = "none";
-      }else {
-        divRef.current[i].style.display = "";
-      }
+  const [currentNo, setCurrentNo] = useState(0);
+  const [saveScore, setSaveScore] = useState([]);
+  const [bdisum, setBdisum] = useState(0);
+  const [showResult, setShowResult] = useState(false);
+  let datas={}
+  const handleClick = (score) => {
+    setBdisum(bdisum=>bdisum+score);
+    // console.log(currentNo);
+    if(currentNo === quiz.length-1){
+      setSaveScore((saveScore)=>[...saveScore, score]);
+      setShowResult(true);
+    }else{
+      setCurrentNo((currentNo)=>currentNo+1);
+      setSaveScore((saveScore)=>[...saveScore, score]);
     }
   };
+  let cgi = 0;
+  const sendScore = ()=>{
+    if(bdisum<10){
+      cgi=1;
+    }else if(bdisum<16&&bdisum>=10){
+      cgi =2;
+    }else if(bdisum<24&&bdisum>=16){
+      cgi=3;
+    }else{
+      cgi=4;
+    }
+    datas = {
+      bdi_score:saveScore,
+      bdisum: bdisum,
+      cgi:cgi
+    }
+    // console.log(datas);
+    alert("점수가 저장되었습니다.");
+  }
+
   return (
     <>
-      <h1>Tab2</h1>
-      <p>second tab</p>
-      <div>
-        <input type="text" onChange={onchangeTxtHandler} value={searchTXT} />
-        {/* <input type="button" onClick={onSearch} value="검색" /> */}
-      </div>
-      <div style={{ display: "flex", flexDirection: "column" }}>
-        {list.map((value, index) => {
-          return (
-            <div key={index} ref={(el) => (divRef.current[index] = el)}>
-              <label>
-                <input
-                  type="radio"
-                  name="ep"
-                  ref={(el) => (inputRef.current[index] = el)}
-                  value={value}
-                  id={index}
-                />
-                {index + 1}
-              </label>
+      <h1>Tab4</h1>
+      <div className="test-container">
+            {showResult ? (
+              <div className="test-app">
+                <h1 className="test-result-header">테스트가 종료되었습니다.</h1>
+                <p className="test-result-score">총점 : {bdisum}</p>
+                <button className="test-btn" onClick={sendScore}> 점수 입력 </button>
+                </div>
+            ):(
+            <div className="test-app">
+              <div className="test-question-section">
+                <h1 className="test-question-header">
+                  <span>{quiz[currentNo].id}</span>/{quiz.length}
+                </h1>
+                <div className="test-question-text">
+                  {quiz[currentNo].question}
+                </div>
+              </div>
+              <div className="test-answer-section">
+                {quiz[currentNo].answers.map((answer, index) => (
+                  <button
+                    key={index}
+                    className="test-btn"
+                    value={answer.text}
+                    onClick={() => handleClick(answer.score)}
+                  >
+                    {answer.text}
+                  </button>
+                ))}
+              </div>
             </div>
-          );
-        })}
-
-      </div>
+            )}
+          </div>
     </>
   );
 };
