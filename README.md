@@ -13,7 +13,7 @@
 
 # 명령어 정리
 ## 1. git 생성
-### git init
+- ### git init
 ## 2. 변경 코드 올리기
 - ### git add 파일명 또는 전체다 .
 - ### git commit -g "커밋 내용"
