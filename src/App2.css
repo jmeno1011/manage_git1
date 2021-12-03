@@ -35,7 +35,6 @@
   color: white;
   font-size: large;
   padding: 10px 20px;
-  border-right: 1px white solid;
 }
 .header-right, .content-help{
   background-color: midnightblue;
@@ -43,13 +42,13 @@
   font-size: large;
   display: flex;
   padding: 10px 0;
-  border-left: 1px white solid;
 }
 .header-right>div, .content-help>div{
   padding: 0 5px;
 }
 .content-help{
   width: 100%;
+  color: white;
   max-width: 220px;
   margin-right: 5px;
   display: flex;
@@ -89,7 +88,7 @@
   margin-top: 5px;
 }
 .section-two{
-  margin-left: 5px;
+  margin: 0 5px;
   width: 100%;
   max-width: 700px;
 }
@@ -202,4 +201,25 @@
 }
 .copyright{
   margin: 0 auto;
+}
+.ibox{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  /* padding-left: 10px; */
+  padding: 0 10px;
+}
+.index{
+  margin: 5px 0;
+  background-color: black;
+  color: white;
+}
+.chart{
+  background-color: black;
+
+}
+hr{
+  margin: 0;
+  padding: 0;
 }
