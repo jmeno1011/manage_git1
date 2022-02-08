@@ -2,8 +2,6 @@ import React, { useEffect, useLayoutEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import BtnCarousel from "./components/BtnCarousel";
-import SimpleCarousel from "./components/SimpleCarousel";
-import SimpleSlider from "./components/SimpleSlider";
 import Tab1 from "./components/tabComponent/Tab1";
 import Tab2 from "./components/tabComponent/Tab2";
 import Tab3 from "./components/tabComponent/Tab3";
