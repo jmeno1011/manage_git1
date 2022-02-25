@@ -7,7 +7,7 @@ const Home = () => {
       <header>
         <h1>헤더</h1>
       </header>
-      <div>
+      <section>
           <ul>
               <li>
                   <Link to={"/about"}>about</Link>
@@ -16,7 +16,8 @@ const Home = () => {
                   <Link to={"/carousel"}>carousel (슬라이더)</Link>
               </li>
           </ul>
-      </div>
+      </section>
+      <footer>푸터</footer>
     </div>
   )
 }

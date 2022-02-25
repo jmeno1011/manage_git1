@@ -4,3 +4,18 @@ header{
   background: darkolivegreen;
   color: white;
 }
+section{
+  height: 100%;
+  width: 100%;
+  background: lightblue;
+  padding: 1rem;
+}
+ul{
+  margin: 0;
+}
+footer{
+  height: 80px;
+  width: 100%;
+  background: darkolivegreen;
+  color: white;
+}
