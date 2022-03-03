@@ -5,16 +5,19 @@ import cat2 from "./image/cat2.jpg";
 import cat3 from "./image/cat3.jpg";
 import cat4 from "./image/cat4.jpg";
 import "./Carousel.css";
+import { useNavigate } from "react-router-dom";
 
 const CarouselBasic = () => {
+  const navigate = useNavigate();
   return (
     <div>
+      <button onClick={() => navigate(-1)}>Go back</button>
       <h1>CarouselBasic</h1>
       <div style={{ display: "flex" }}>
         <SimpleSlider />
         <MultiSlider />
       </div>
-      <div style={{ display: "flex", marginTop:10 }}>
+      <div style={{ display: "flex", marginTop: 10 }}>
         <AutoSlider />
         <ButtonSlider />
       </div>
@@ -107,9 +110,9 @@ const AutoSlider = () => {
     speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:true,
+    autoplay: true,
     autoplaySpeed: 3000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
   return (
     <div className="wrapper">
@@ -145,54 +148,54 @@ const AutoSlider = () => {
 
 const ButtonSlider = () => {
   const slider = useRef();
-  const next =()=> {
+  const next = () => {
     slider.current.slickNext();
-  }
-  const previous = ()=> {
+  };
+  const previous = () => {
     slider.current.slickPrev();
-  }
+  };
   const buttonSettings = {
     dots: true,
     speed: 500,
   };
   return (
-    <div style={{display:'flex',flexDirection:'column', margin:'0 auto'}}>
-    <div className="wrapper">
-      <Slider ref={slider} {...buttonSettings}>
-        <div>
-          <img alt="" src={cat1} />
-          <p className="legend" align="center">
-            cat 1
-          </p>
-        </div>
-        <div>
-          <img alt="" src={cat2} />
-          <p className="legend" align="center">
-            cat 2
-          </p>
-        </div>
-        <div>
-          <img alt="" src={cat3} />
-          <p className="legend" align="center">
-            cat 3
-          </p>
-        </div>
-        <div>
-          <img alt="" src={cat4} />
-          <p className="legend" align="center">
-            cat 4
-          </p>
-        </div>
-      </Slider>
-    </div>
+    <div style={{ display: "flex", flexDirection: "column", margin: "0 auto" }}>
+      <div className="wrapper">
+        <Slider ref={slider} {...buttonSettings}>
+          <div>
+            <img alt="" src={cat1} />
+            <p className="legend" align="center">
+              cat 1
+            </p>
+          </div>
+          <div>
+            <img alt="" src={cat2} />
+            <p className="legend" align="center">
+              cat 2
+            </p>
+          </div>
+          <div>
+            <img alt="" src={cat3} />
+            <p className="legend" align="center">
+              cat 3
+            </p>
+          </div>
+          <div>
+            <img alt="" src={cat4} />
+            <p className="legend" align="center">
+              cat 4
+            </p>
+          </div>
+        </Slider>
+      </div>
       <div style={{ textAlign: "center" }}>
-          <button className="button" onClick={previous}>
-            Previous
-          </button>
-          <button className="button" onClick={next}>
-            Next
-          </button>
-        </div>
-        </div>
+        <button className="button" onClick={previous}>
+          Previous
+        </button>
+        <button className="button" onClick={next}>
+          Next
+        </button>
+      </div>
+    </div>
   );
 };

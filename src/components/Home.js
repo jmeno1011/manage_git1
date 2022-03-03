@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -8,18 +8,21 @@ const Home = () => {
         <h1>헤더</h1>
       </header>
       <section>
-          <ul>
-              <li>
-                  <Link to={"/about"}>about</Link>
-              </li>
-              <li>
-                  <Link to={"/carousel"}>carousel (슬라이더)</Link>
-              </li>
-          </ul>
+        <ul>
+          <li>
+            <Link to={"/about"}>about</Link>
+          </li>
+          <li>
+            <Link to={"/carousel"}>carousel (슬라이더)</Link>
+          </li>
+          <li>
+            <Link to={"/clip-board"}>clip-board (클립보드)</Link>
+          </li>
+        </ul>
       </section>
       <footer>푸터</footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

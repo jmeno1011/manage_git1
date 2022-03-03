@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import CarouselBasic from "./components/CarouselBasic";
+import ClipBoard from "./components/ClipBoard";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/carousel" element={<CarouselBasic />} />
+      <Route path="/clip-board" element={<ClipBoard />} />
     </Routes>
   );
 }
