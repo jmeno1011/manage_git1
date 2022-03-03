@@ -1,25 +1,30 @@
-.wrapper{
-    width: 400px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: #242424;
-    color: white;
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 0.25rem;
+}
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #242424;
+  color: white;
 }
 .slick-slide img {
-    height: 278px;
-    margin: auto;
+  height: 278px;
+  margin: auto;
 }
 /* .slick-slide p{
     margin: auto;
 } */
-.slick-dots li button:before{
-    color: white !important;
+.slick-dots li button:before {
+  color: white !important;
 }
 
-.wrapper2{
-    width: 700px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: #242424;
-    color: white;
+.wrapper2 {
+  width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #242424;
+  color: white;
 }
