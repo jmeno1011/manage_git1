@@ -17,7 +17,7 @@ const ClipBoard = () => {
         (e.clipboardData || window.clipboardData).getData('text');
     
       e.target.value = paste;
-    
+
       // stop default paste
       e.preventDefault();
       })
