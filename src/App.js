@@ -6,6 +6,7 @@ import About from "./components/About";
 import CarouselBasic from "./components/CarouselBasic";
 import ClipBoard from "./components/ClipBoard";
 import Keyboard from "./components/Keyboard";
+import VocaListItem from "./components/VocaListItem";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/carousel" element={<CarouselBasic />} />
       <Route path="/clip-board" element={<ClipBoard />} />
       <Route path="/keyboard" element={<Keyboard />} />
+      <Route path="/voca" element={<VocaListItem />} />
     </Routes>
   );
 }

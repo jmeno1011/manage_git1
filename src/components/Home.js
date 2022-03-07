@@ -21,6 +21,9 @@ const Home = () => {
           <li>
             <Link to={"/keyboard"}>keyboard (가상 키보드)</Link>
           </li>
+          <li>
+            <Link to={"/voca"}>voca (단어장)</Link>
+          </li>
         </ul>
       </section>
       <footer>푸터</footer>
