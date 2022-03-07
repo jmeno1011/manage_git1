@@ -2,8 +2,28 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import './vocaListItem.css'
+import axios from 'axios';
+import { useEffect } from "react";
+
 const VocaListItem = () => {
     const navigate = useNavigate();
+
+    const fetch = async()=>{
+        try{
+            const res = await axios.get('https://docs.google.com/spreadsheets/d/1JutZS1OQ6f5O7fDpctGGNKoF3Hi-wAQtUTcb375RkYo/edit#gid=0')
+            console.log(res);
+            return res
+        }catch{
+
+        }
+
+        
+    }
+    
+    useEffect(()=>{
+        fetch()
+    },[])
+    
   return (
     <div >
         <header>
@@ -11,7 +31,6 @@ const VocaListItem = () => {
         <button onClick={() => navigate(-1)}>Go back</button>
       </header>
       <div style={{width:530}}>
-
         <div className='vocaItem'>
             <div className='itemWord'>
                 <div className='wrapWord'>
