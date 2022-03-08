@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import "./vocaListItem.css";
@@ -46,6 +46,7 @@ const VocaListItem = () => {
 export default VocaListItem;
 
 const VocaItem = () => {
+  const [limit, setLimit] = useState(10);
   return (
     <>
       {vocaData.map((value) => (
