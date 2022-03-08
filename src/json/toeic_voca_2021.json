@@ -1,0 +1,2002 @@
+[
+    {
+        "index": "1",
+        "words": "apprehensive",
+        "means": "걱정하는, 염려하는"
+    },
+    {
+        "index": "2",
+        "words": "on the payroll",
+        "means": "고용되어"
+    },
+    {
+        "index": "3",
+        "words": "effect",
+        "means": "결과로서 ~을 가져오다"
+    },
+    {
+        "index": "4",
+        "words": "come into effect",
+        "means": "실시되다"
+    },
+    {
+        "index": "5",
+        "words": "take effect",
+        "means": "(법의)효력이 나타나다"
+    },
+    {
+        "index": "6",
+        "words": "put into effect(=apply)",
+        "means": "법이 실행되어 현실에 적용"
+    },
+    {
+        "index": "7",
+        "words": "drastically",
+        "means": "심하게, 철저하게"
+    },
+    {
+        "index": "8",
+        "words": "authorize",
+        "means": "권한을 부여하다"
+    },
+    {
+        "index": "9",
+        "words": "unauthorized production",
+        "means": "불법 복제"
+    },
+    {
+        "index": "10",
+        "words": "enforce",
+        "means": "(법률을)시행·집행하다"
+    },
+    {
+        "index": "11",
+        "words": "enforce regulations",
+        "means": "규정을 시행하다"
+    },
+    {
+        "index": "12",
+        "words": "habit",
+        "means": "(개개인의)습관, 버릇"
+    },
+    {
+        "index": "13",
+        "words": "convention",
+        "means": "관례, 관습"
+    },
+    {
+        "index": "14",
+        "words": "accustomed",
+        "means": "익숙한"
+    },
+    {
+        "index": "15",
+        "words": "corporate",
+        "means": "법인의"
+    },
+    {
+        "index": "16",
+        "words": "corporation",
+        "means": "법인의"
+    },
+    {
+        "index": "17",
+        "words": "compartment",
+        "means": "구획, 칸막이"
+    },
+    {
+        "index": "18",
+        "words": "upon request",
+        "means": "요청 시에"
+    },
+    {
+        "index": "19",
+        "words": "manage",
+        "means": "~을 경영하다, 가까스로 하다"
+    },
+    {
+        "index": "20",
+        "words": "manage to do",
+        "means": "가까스로 ~하다"
+    },
+    {
+        "index": "21",
+        "words": "be reminded to do",
+        "means": "~할 것을 잊지 않도록 주의받다"
+    },
+    {
+        "index": "22",
+        "words": "instruct",
+        "means": "지시하다, 가르치다"
+    },
+    {
+        "index": "23",
+        "words": "sample",
+        "means": "(견본으로)시험하다, 시식하다"
+    },
+    {
+        "index": "24",
+        "words": "well-deserved advancement",
+        "means": "응당한 승진"
+    },
+    {
+        "index": "25",
+        "words": "press release",
+        "means": "보도 자료"
+    },
+    {
+        "index": "26",
+        "words": "extension",
+        "means": "연장, (전화의)내선"
+    },
+    {
+        "index": "27",
+        "words": "delegate",
+        "means": "(권한 등을) 위임하다, 대표"
+    },
+    {
+        "index": "28",
+        "words": "attentively",
+        "means": "주의깊게, 조심스럽게"
+    },
+    {
+        "index": "29",
+        "words": "acquaint",
+        "means": "~에게 숙지시키다"
+    },
+    {
+        "index": "30",
+        "words": "file a claim",
+        "means": "(보험금 등을) 청구하다"
+    },
+    {
+        "index": "31",
+        "words": "procrastinate",
+        "means": "미루다, 꾸물거리다"
+    },
+    {
+        "index": "32",
+        "words": "combined experience",
+        "means": "종합 경력"
+    },
+    {
+        "index": "33",
+        "words": "combined efforts",
+        "means": "결합된 노력"
+    },
+    {
+        "index": "34",
+        "words": "accomplish",
+        "means": "성취하다"
+    },
+    {
+        "index": "35",
+        "words": "accomplished author",
+        "means": "유명한 작가"
+    },
+    {
+        "index": "36",
+        "words": "assume",
+        "means": "가정하다, (어떤 일을)맡다"
+    },
+    {
+        "index": "37",
+        "words": "take on, undertake",
+        "means": "(어떤 일을)맡다"
+    },
+    {
+        "index": "38",
+        "words": "assist with",
+        "means": "~을 돕다"
+    },
+    {
+        "index": "39",
+        "words": "manner",
+        "means": "방식, 태도"
+    },
+    {
+        "index": "40",
+        "words": "hold A responsible for B",
+        "means": "A에게 B의 책임을 지우다"
+    },
+    {
+        "index": "41",
+        "words": "responsive",
+        "means": "반응이 빠른, 바로 대답하는"
+    },
+    {
+        "index": "42",
+        "words": "conduct",
+        "means": "(업무 등을) 수행하다"
+    },
+    {
+        "index": "43",
+        "words": "conduct an inspection",
+        "means": "검사를 행하다"
+    },
+    {
+        "index": "44",
+        "words": "conduct a semina",
+        "means": "세미나를 열다"
+    },
+    {
+        "index": "45",
+        "words": "conduct a research study",
+        "means": "조사 연구를 하다"
+    },
+    {
+        "index": "46",
+        "words": "personnel",
+        "means": "(집합적) 직원, 인원, 인사과"
+    },
+    {
+        "index": "47",
+        "words": "sales personnel",
+        "means": "영업 사원"
+    },
+    {
+        "index": "48",
+        "words": "agree on + 의견",
+        "means": "(의견)에 동의하다"
+    },
+    {
+        "index": "49",
+        "words": "agree to + 제안/조건",
+        "means": "(제안/조건)에 찬성하다"
+    },
+    {
+        "index": "50",
+        "words": "agree + to부정사",
+        "means": "~하는 데 동의하다"
+    },
+    {
+        "index": "51",
+        "words": "agree with + 사람",
+        "means": "(사람)에 동의하다"
+    },
+    {
+        "index": "52",
+        "words": "direct",
+        "means": "~에게 길을 안내하다"
+    },
+    {
+        "index": "53",
+        "words": "confidential",
+        "means": "기밀의, 내밀한"
+    },
+    {
+        "index": "54",
+        "words": "classifed, secret",
+        "means": "비밀"
+    },
+    {
+        "index": "55",
+        "words": "coordinate",
+        "means": "조정하다"
+    },
+    {
+        "index": "56",
+        "words": "harldly ever",
+        "means": "좀처럼 ~하지 않다"
+    },
+    {
+        "index": "57",
+        "words": "accountable",
+        "means": "책임이 있는"
+    },
+    {
+        "index": "58",
+        "words": "hold A accountable for B",
+        "means": "B에 대한 책임을 A에게 지우다"
+    },
+    {
+        "index": "59",
+        "words": "be accountable to A",
+        "means": "A에게 설명할 의무가 있다"
+    },
+    {
+        "index": "60",
+        "words": "intention",
+        "means": "의지, 의향"
+    },
+    {
+        "index": "61",
+        "words": "have every intention of -ing",
+        "means": "꼭 -하고자 하다"
+    },
+    {
+        "index": "62",
+        "words": "lax",
+        "means": "(행동 등이)느슨한"
+    },
+    {
+        "index": "63",
+        "words": "in duplicate",
+        "means": "두 통으로"
+    },
+    {
+        "index": "64",
+        "words": "neutrality",
+        "means": "중립성, 중립"
+    },
+    {
+        "index": "65",
+        "words": "outstanding",
+        "means": "우수한, (부채 등이) 미지불된"
+    },
+    {
+        "index": "66",
+        "words": "outline",
+        "means": "개요, 설명하다"
+    },
+    {
+        "index": "67",
+        "words": "contain",
+        "means": "포함하다, 감정을 억누르다"
+    },
+    {
+        "index": "68",
+        "words": "control, hold back",
+        "means": "감정을 억누르다"
+    },
+    {
+        "index": "69",
+        "words": "throughout the remainder of+기간",
+        "means": "일정 기간 중 남은 시간"
+    },
+    {
+        "index": "70",
+        "words": "remainder",
+        "means": "나머지"
+    },
+    {
+        "index": "71",
+        "words": "reminder",
+        "means": "메모, 상기시켜 주는 것"
+    },
+    {
+        "index": "72",
+        "words": "compliance",
+        "means": "(명령·법규에의) 준수"
+    },
+    {
+        "index": "73",
+        "words": "toll collection",
+        "means": "통행료 징수"
+    },
+    {
+        "index": "74",
+        "words": "collectable",
+        "means": "수집 대상물"
+    },
+    {
+        "index": "75",
+        "words": "improvise",
+        "means": "(연주·연설 등)즉흥적으로 하다"
+    },
+    {
+        "index": "76",
+        "words": "improvisation",
+        "means": "즉흥 연주"
+    },
+    {
+        "index": "77",
+        "words": "likable",
+        "means": "호감이 가는"
+    },
+    {
+        "index": "78",
+        "words": "donor",
+        "means": "기증자, 증여자"
+    },
+    {
+        "index": "79",
+        "words": "alumni",
+        "means": "동창생들, 졸업생들"
+    },
+    {
+        "index": "80",
+        "words": "banquet",
+        "means": "연회, 만찬"
+    },
+    {
+        "index": "81",
+        "words": "address an issue",
+        "means": "쟁점을 거론하다"
+    },
+    {
+        "index": "82",
+        "words": "it appears that절",
+        "means": "~인 것 같다"
+    },
+    {
+        "index": "83",
+        "words": "appear in court",
+        "means": "법정에 출두하다"
+    },
+    {
+        "index": "84",
+        "words": "be committed to -ing",
+        "means": "~하는 데 헌신하다"
+    },
+    {
+        "index": "85",
+        "words": "informative",
+        "means": "유익한, 정보를 주는"
+    },
+    {
+        "index": "86",
+        "words": "informative brochure/booklet",
+        "means": "유익한 브로셔/소책자"
+    },
+    {
+        "index": "87",
+        "words": "note",
+        "means": "주목하다, 특별히 언급하다"
+    },
+    {
+        "index": "88",
+        "words": "manuscript",
+        "means": "원고"
+    },
+    {
+        "index": "89",
+        "words": "mayoral election",
+        "means": "시장 선거"
+    },
+    {
+        "index": "90",
+        "words": "defy",
+        "means": "저항하다, (묘사가)거의 불가능하다"
+    },
+    {
+        "index": "91",
+        "words": "defy description",
+        "means": "형헌할 수 없다"
+    },
+    {
+        "index": "92",
+        "words": "have a monopoly on",
+        "means": "~에 대한 독점권을 가지다"
+    },
+    {
+        "index": "93",
+        "words": "with respect",
+        "means": "존중하여"
+    },
+    {
+        "index": "94",
+        "words": "do one's utmost",
+        "means": "전력을 다하다"
+    },
+    {
+        "index": "95",
+        "words": "demonstration",
+        "means": "설명, 드러냄, 시연"
+    },
+    {
+        "index": "96",
+        "words": "run effectively",
+        "means": "효과적으로 작동하다"
+    },
+    {
+        "index": "97",
+        "words": "cooperate with + 사람",
+        "means": "~와 협력하다"
+    },
+    {
+        "index": "98",
+        "words": "cooperate + 일",
+        "means": "~에 대해 협력하다"
+    },
+    {
+        "index": "99",
+        "words": "consecutive",
+        "means": "연속적인"
+    },
+    {
+        "index": "100",
+        "words": "publicize",
+        "means": "공표하다, 광고하다"
+    },
+    {
+        "index": "101",
+        "words": "exclusively",
+        "means": "독점적으로"
+    },
+    {
+        "index": "102",
+        "words": "affect",
+        "means": "~에 영향을 미치다, \n 불리하게 작용하다"
+    },
+    {
+        "index": "103",
+        "words": "effect",
+        "means": "효과, 효력"
+    },
+    {
+        "index": "104",
+        "words": "seasoned traveler",
+        "means": "숙련된 여행가"
+    },
+    {
+        "index": "105",
+        "words": "seasonal",
+        "means": "계절의"
+    },
+    {
+        "index": "106",
+        "words": "seasoned",
+        "means": "숙련된"
+    },
+    {
+        "index": "107",
+        "words": "in comparison with",
+        "means": "~와 비교해 볼 때"
+    },
+    {
+        "index": "108",
+        "words": "be reflective of",
+        "means": "~을 반영하다"
+    },
+    {
+        "index": "109",
+        "words": "marginal",
+        "means": "약간의, 주변의"
+    },
+    {
+        "index": "110",
+        "words": "hastily",
+        "means": "성급히, 급히"
+    },
+    {
+        "index": "111",
+        "words": "aggressively",
+        "means": "적극적으로"
+    },
+    {
+        "index": "112",
+        "words": "during/in + one's absence",
+        "means": "~의 부재 중에"
+    },
+    {
+        "index": "113",
+        "words": "by means of",
+        "means": "~에 의하여, ~으로"
+    },
+    {
+        "index": "114",
+        "words": "forward",
+        "means": "앞으로, (물건·정보)를 보내다"
+    },
+    {
+        "index": "115",
+        "words": "contemporary",
+        "means": "동시대의, 현대의"
+    },
+    {
+        "index": "116",
+        "words": "cover",
+        "means": "포함하다, 지불하다, 덮다"
+    },
+    {
+        "index": "117",
+        "words": "lesser",
+        "means": "~보다 중요치 않은"
+    },
+    {
+        "index": "118",
+        "words": "mastermind",
+        "means": "(계획 등의)입안자, 지도자"
+    },
+    {
+        "index": "119",
+        "words": "stagment = sluggish",
+        "means": "불경기의, 침체된"
+    },
+    {
+        "index": "120",
+        "words": "dramatically = substantially",
+        "means": "(변화가 너무 커서)극적"
+    },
+    {
+        "index": "121",
+        "words": "brisk",
+        "means": "활발한, 호황의"
+    },
+    {
+        "index": "122",
+        "words": "remain",
+        "means": "아직 ~해야 한다, ~한 상태이다"
+    },
+    {
+        "index": "123",
+        "words": "in particular",
+        "means": "특히"
+    },
+    {
+        "index": "124",
+        "words": "compete for",
+        "means": "~을 두고 경쟁하다"
+    },
+    {
+        "index": "125",
+        "words": "wane",
+        "means": "감소, 쇠퇴"
+    },
+    {
+        "index": "126",
+        "words": "impede",
+        "means": "저해하다, 방해하다"
+    },
+    {
+        "index": "127",
+        "words": "promisinf",
+        "means": "유망한, 전망이 좋은"
+    },
+    {
+        "index": "128",
+        "words": "adversity",
+        "means": "역경, 불운"
+    },
+    {
+        "index": "129",
+        "words": "installment",
+        "means": "할부"
+    },
+    {
+        "index": "130",
+        "words": "at an affordable + rate/price",
+        "means": "적당한 가격에"
+    },
+    {
+        "index": "131",
+        "words": "charge A to B",
+        "means": "A를 B앞으로 달아 놓다"
+    },
+    {
+        "index": "132",
+        "words": "give two weeks' notice",
+        "means": "2주 전에 통보하다"
+    },
+    {
+        "index": "133",
+        "words": "under warranty",
+        "means": "(상품이) 보증 기간 중인"
+    },
+    {
+        "index": "134",
+        "words": "original/valid + receipt",
+        "means": "원본/유효한 영수증"
+    },
+    {
+        "index": "135",
+        "words": "upon receipt of",
+        "means": "~을 수령/접수하는 즉시"
+    },
+    {
+        "index": "136",
+        "words": "promotional offers",
+        "means": "판촉 상품"
+    },
+    {
+        "index": "137",
+        "words": "offer A B = offer B to A",
+        "means": "A에게 B를 제공하다"
+    },
+    {
+        "index": "138",
+        "words": "exclusively supply",
+        "means": "독점으로 제공하다"
+    },
+    {
+        "index": "139",
+        "words": "solely",
+        "means": "오로지, 단독으로"
+    },
+    {
+        "index": "140",
+        "words": "specification",
+        "means": "(자세한) 설명서, 사양"
+    },
+    {
+        "index": "141",
+        "words": "relatively",
+        "means": "상대적으로"
+    },
+    {
+        "index": "142",
+        "words": "clearance",
+        "means": "정리, 없애기, 허가"
+    },
+    {
+        "index": "143",
+        "words": "redeemable",
+        "means": "(현금·상품과) 교환할 수 있는"
+    },
+    {
+        "index": "144",
+        "words": "vendor",
+        "means": "노점상, 가판대, 판매업체"
+    },
+    {
+        "index": "145",
+        "words": "research on",
+        "means": "~에 대한 연구"
+    },
+    {
+        "index": "146",
+        "words": "devise",
+        "means": "고안하다, 발명하다"
+    },
+    {
+        "index": "147",
+        "words": "envision",
+        "means": "(장래의 일)계획하다, 상상하다"
+    },
+    {
+        "index": "148",
+        "words": "extend",
+        "means": "연장하다, (감사의 뜻)말하다"
+    },
+    {
+        "index": "149",
+        "words": "grant",
+        "means": "수여하다, 보조금"
+    },
+    {
+        "index": "150",
+        "words": "take ~ for granted",
+        "means": "~을 당연하게 여기다"
+    },
+    {
+        "index": "151",
+        "words": "in response to",
+        "means": "~에 응하여"
+    },
+    {
+        "index": "152",
+        "words": "hold",
+        "means": "~을 수용하다, 개최하다(conduct)"
+    },
+    {
+        "index": "153",
+        "words": "in advance",
+        "means": "미리"
+    },
+    {
+        "index": "154",
+        "words": "thrive",
+        "means": "번영하다, 성공하다"
+    },
+    {
+        "index": "155",
+        "words": "implication",
+        "means": "영향, 밀접한 관계"
+    },
+    {
+        "index": "156",
+        "words": "be under development",
+        "means": "개발 중이다"
+    },
+    {
+        "index": "157",
+        "words": "development in",
+        "means": "~의 발전"
+    },
+    {
+        "index": "158",
+        "words": "availability",
+        "means": "(입수) 가능성, 유효성"
+    },
+    {
+        "index": "159",
+        "words": "accomplished",
+        "means": "숙련된, 노련한"
+    },
+    {
+        "index": "160",
+        "words": "be compatible with",
+        "means": "~과 호환되다"
+    },
+    {
+        "index": "161",
+        "words": "absolute",
+        "means": "완전한, 완전무결한"
+    },
+    {
+        "index": "162",
+        "words": "to an absolute minimum",
+        "means": "완전 최소로"
+    },
+    {
+        "index": "163",
+        "words": "corrosion",
+        "means": "부식"
+    },
+    {
+        "index": "164",
+        "words": "specification",
+        "means": "명세서, 설명서"
+    },
+    {
+        "index": "165",
+        "words": "be filled to capacity",
+        "means": "가득 차 있다"
+    },
+    {
+        "index": "166",
+        "words": "assembly plant",
+        "means": "조립 공장"
+    },
+    {
+        "index": "167",
+        "words": "place an order",
+        "means": "주문하다"
+    },
+    {
+        "index": "168",
+        "words": "place A on standby",
+        "means": "A를 대기 상태로 두다"
+    },
+    {
+        "index": "169",
+        "words": "fill an order",
+        "means": "주문에 응하다"
+    },
+    {
+        "index": "170",
+        "words": "fill the position",
+        "means": "공석을 채우다"
+    },
+    {
+        "index": "171",
+        "words": "renovate",
+        "means": "(낡은 건물)개조하다, 보수하다"
+    },
+    {
+        "index": "172",
+        "words": "attribute",
+        "means": "(원인을) ~의 덕분으로 돌리다"
+    },
+    {
+        "index": "173",
+        "words": "economize",
+        "means": "절약하다, 아끼다"
+    },
+    {
+        "index": "174",
+        "words": "trim",
+        "means": "(깎아) 다듬다, 삭감하다"
+    },
+    {
+        "index": "175",
+        "words": "expiration",
+        "means": "(기간, 임기) 만료, 만기"
+    },
+    {
+        "index": "176",
+        "words": "maneuver",
+        "means": "이동시키다, 움직이다"
+    },
+    {
+        "index": "177",
+        "words": "deal with",
+        "means": "(문제 등을) 처리하다"
+    },
+    {
+        "index": "178",
+        "words": "argumentative",
+        "means": "논쟁적인, 논쟁을 좋아하는"
+    },
+    {
+        "index": "179",
+        "words": "infuriate",
+        "means": "화나게 하다, 격분시키다"
+    },
+    {
+        "index": "180",
+        "words": "inconvenience",
+        "means": "~에게 불편을 느끼게하다, 불편"
+    },
+    {
+        "index": "181",
+        "words": "with a confident manner",
+        "means": "자신 있는 태도로"
+    },
+    {
+        "index": "182",
+        "words": "commentary",
+        "means": "해설, 설명"
+    },
+    {
+        "index": "183",
+        "words": "observe",
+        "means": "관찰하다, (규칙) 준수하다"
+    },
+    {
+        "index": "184",
+        "words": "defective",
+        "means": "결함이 있는"
+    },
+    {
+        "index": "185",
+        "words": "in advance of",
+        "means": "~이전에"
+    },
+    {
+        "index": "186",
+        "words": "advance in",
+        "means": "~의 진보, 발전"
+    },
+    {
+        "index": "187",
+        "words": "reliant",
+        "means": "의존하는, 의지하는"
+    },
+    {
+        "index": "188",
+        "words": "baggage claim",
+        "means": "(공항의) 수하물 찾는 곳"
+    },
+    {
+        "index": "189",
+        "words": "declare",
+        "means": "(세관에서) 신고하다"
+    },
+    {
+        "index": "190",
+        "words": "specify",
+        "means": "명시하다"
+    },
+    {
+        "index": "191",
+        "words": "depart = take off",
+        "means": "출발하다"
+    },
+    {
+        "index": "192",
+        "words": "customarily",
+        "means": "습관적으로"
+    },
+    {
+        "index": "193",
+        "words": "customary",
+        "means": "관례적인"
+    },
+    {
+        "index": "194",
+        "words": "fill out/in",
+        "means": "(서류에) 적어 넣다, 작성하다"
+    },
+    {
+        "index": "195",
+        "words": "fill up",
+        "means": "(자동차에) 기름을 가득 채우다"
+    },
+    {
+        "index": "196",
+        "words": "custom regualtions",
+        "means": "세관 규정"
+    },
+    {
+        "index": "197",
+        "words": "custom clearance",
+        "means": "통관 수속"
+    },
+    {
+        "index": "198",
+        "words": "go through customs",
+        "means": "세관을 통과하다"
+    },
+    {
+        "index": "199",
+        "words": "hospitality extended to",
+        "means": "~에게 베푼 환대"
+    },
+    {
+        "index": "200",
+        "words": "hospitality industry",
+        "means": "서비스업"
+    },
+    {
+        "index": "201",
+        "words": "indulge",
+        "means": "빠지다, 탐닉하다"
+    },
+    {
+        "index": "202",
+        "words": "in the proximity of",
+        "means": "~의 부근에"
+    },
+    {
+        "index": "203",
+        "words": "seating",
+        "means": "(집합적) 좌석 설비, 좌석 배열"
+    },
+    {
+        "index": "204",
+        "words": "stipulation",
+        "means": "계약 조건"
+    },
+    {
+        "index": "205",
+        "words": "in terms of",
+        "means": "~의 면에서, ~의 점에서 보면"
+    },
+    {
+        "index": "206",
+        "words": "compromise",
+        "means": "타협, 화해"
+    },
+    {
+        "index": "207",
+        "words": "deadlock",
+        "means": "교착 상채"
+    },
+    {
+        "index": "208",
+        "words": "contract out A to B",
+        "means": "A를 B에게 하청 주다"
+    },
+    {
+        "index": "209",
+        "words": "invalidate",
+        "means": "무효화하다"
+    },
+    {
+        "index": "210",
+        "words": "imperative",
+        "means": "반드시 해야 하는, 필수적인"
+    },
+    {
+        "index": "211",
+        "words": "omit",
+        "means": "빠뜨리다, 생략하다"
+    },
+    {
+        "index": "212",
+        "words": "renew",
+        "means": "갱신하다"
+    },
+    {
+        "index": "213",
+        "words": "renewal",
+        "means": "갱신"
+    },
+    {
+        "index": "214",
+        "words": "confidentiality",
+        "means": "기밀, 비밀"
+    },
+    {
+        "index": "215",
+        "words": "take A seriously",
+        "means": "A를 진지하게 받아들이다"
+    },
+    {
+        "index": "216",
+        "words": "take A lightly",
+        "means": "A를 가볍게 받아들이다"
+    },
+    {
+        "index": "217",
+        "words": "itinerary",
+        "means": "여행 일정"
+    },
+    {
+        "index": "218",
+        "words": "temporarily",
+        "means": "일시적으로"
+    },
+    {
+        "index": "219",
+        "words": "temporary",
+        "means": "일시적인"
+    },
+    {
+        "index": "220",
+        "words": "dealership",
+        "means": "판매 대리점"
+    },
+    {
+        "index": "221",
+        "words": "bulk",
+        "means": "대량의"
+    },
+    {
+        "index": "222",
+        "words": "in bulk",
+        "means": "대량으로"
+    },
+    {
+        "index": "223",
+        "words": "run short",
+        "means": "~이 부족하다, 떨어지다"
+    },
+    {
+        "index": "224",
+        "words": "be short of",
+        "means": "~이 부족하다"
+    },
+    {
+        "index": "225",
+        "words": "a wide selection of",
+        "means": "다양하게 선정된"
+    },
+    {
+        "index": "226",
+        "words": "be provided with",
+        "means": "~이 갖추어져 있다"
+    },
+    {
+        "index": "227",
+        "words": "assure",
+        "means": "~에게 보장하다, ~을 장담하다"
+    },
+    {
+        "index": "228",
+        "words": "subject",
+        "means": "~의 영향을 받기 쉬운, \n (동의 등을) 조건으로 하는"
+    },
+    {
+        "index": "229",
+        "words": "affordability",
+        "means": "감당할 수 있는 비용"
+    },
+    {
+        "index": "230",
+        "words": "clientele",
+        "means": "(집합적) 고객들, 모든 의뢰인"
+    },
+    {
+        "index": "231",
+        "words": "speak for = represent",
+        "means": "(회사, 단체) 대신하여 말하다"
+    },
+    {
+        "index": "232",
+        "words": "encompass",
+        "means": "포함하다, 둘러싸다"
+    },
+    {
+        "index": "233",
+        "words": "quote",
+        "means": "견적(액)"
+    },
+    {
+        "index": "234",
+        "words": "consignment",
+        "means": "위탁 판매"
+    },
+    {
+        "index": "235",
+        "words": "perishable",
+        "means": "부패하기 쉬운"
+    },
+    {
+        "index": "236",
+        "words": "courier",
+        "means": "급송 택배"
+    },
+    {
+        "index": "237",
+        "words": "carton",
+        "means": "(큰) 판지 상자"
+    },
+    {
+        "index": "238",
+        "words": "enclose",
+        "means": "~을 둘러싸다, 에워싸다"
+    },
+    {
+        "index": "239",
+        "words": "encase",
+        "means": "(상자, 포장) ~을 넣다"
+    },
+    {
+        "index": "240",
+        "words": "pick up",
+        "means": "~을 찾다, 도중에 태우다"
+    },
+    {
+        "index": "241",
+        "words": "carry",
+        "means": "지니다, (물품을) 팔다"
+    },
+    {
+        "index": "242",
+        "words": "formerly",
+        "means": "이전에"
+    },
+    {
+        "index": "243",
+        "words": "correspondence",
+        "means": "편지, 통신문"
+    },
+    {
+        "index": "244",
+        "words": "recipient",
+        "means": "수신자"
+    },
+    {
+        "index": "245",
+        "words": "dispute over",
+        "means": "~에 관한 분쟁"
+    },
+    {
+        "index": "246",
+        "words": "define",
+        "means": "규정하다, 정의하다"
+    },
+    {
+        "index": "247",
+        "words": "settle",
+        "means": "해결하다, 처리하다"
+    },
+    {
+        "index": "248",
+        "words": "put in a bid for = bid for",
+        "means": "~에 입찰하다"
+    },
+    {
+        "index": "249",
+        "words": "turn down",
+        "means": "거절하다"
+    },
+    {
+        "index": "250",
+        "words": "reception",
+        "means": "환영회, 접수처"
+    },
+    {
+        "index": "251",
+        "words": "receptionist",
+        "means": "접수원"
+    },
+    {
+        "index": "252",
+        "words": "make progress",
+        "means": "진보하다"
+    },
+    {
+        "index": "253",
+        "words": "cater",
+        "means": "(연회 등의) 음식물을 공급하다"
+    },
+    {
+        "index": "254",
+        "words": "amenity",
+        "means": "편의 시설"
+    },
+    {
+        "index": "255",
+        "words": "freshness",
+        "means": "신선함"
+    },
+    {
+        "index": "256",
+        "words": "refreshment",
+        "means": "원기 회복, (-s)다과"
+    },
+    {
+        "index": "257",
+        "words": "occupancy",
+        "means": "(호텔 등의) 이용률"
+    },
+    {
+        "index": "258",
+        "words": "markedly",
+        "means": "현저하게, 눈에 띄게"
+    },
+    {
+        "index": "259",
+        "words": "projection",
+        "means": "예상(치)"
+    },
+    {
+        "index": "260",
+        "words": "spending and income projections",
+        "means": "지출 및 수입 예상치"
+    },
+    {
+        "index": "261",
+        "words": "retail sales figures",
+        "means": "소매 매출액"
+    },
+    {
+        "index": "262",
+        "words": "sales representative",
+        "means": "영업 사원"
+    },
+    {
+        "index": "263",
+        "words": "figure",
+        "means": "총액, 합계 수"
+    },
+    {
+        "index": "264",
+        "words": "incur",
+        "means": "(손실을) 입다, (빚을) 지다"
+    },
+    {
+        "index": "265",
+        "words": "reliant",
+        "means": "의존하는, 의지하는"
+    },
+    {
+        "index": "266",
+        "words": "illustrate",
+        "means": "분명히 보여 주다, 설명하다"
+    },
+    {
+        "index": "267",
+        "words": "dispose of",
+        "means": "~을 처분하다, 지우다"
+    },
+    {
+        "index": "268",
+        "words": "audit",
+        "means": "회계 감사, 심사"
+    },
+    {
+        "index": "269",
+        "words": "curtail",
+        "means": "~을 줄이다, 삭감하다"
+    },
+    {
+        "index": "270",
+        "words": "reimburse",
+        "means": "변제하다, 상환하다"
+    },
+    {
+        "index": "271",
+        "words": "amend",
+        "means": "수정하다"
+    },
+    {
+        "index": "272",
+        "words": "be exempt from",
+        "means": "~을 면제받다"
+    },
+    {
+        "index": "273",
+        "words": "fiscal year",
+        "means": "회계 연도"
+    },
+    {
+        "index": "274",
+        "words": "fiscal operations",
+        "means": "회계 업무"
+    },
+    {
+        "index": "275",
+        "words": "incidental",
+        "means": "부수적인"
+    },
+    {
+        "index": "276",
+        "words": "affix",
+        "means": "(우표 등을) 붙이다"
+    },
+    {
+        "index": "277",
+        "words": "oblige",
+        "means": "어쩔 수 없이 ~하게 하다\n ~에게 강요하다"
+    },
+    {
+        "index": "278",
+        "words": "complimentary",
+        "means": "무료의"
+    },
+    {
+        "index": "279",
+        "words": "complementary",
+        "means": "상호 보완적인"
+    },
+    {
+        "index": "280",
+        "words": "accommodate",
+        "means": "~을 수용하다, 숙박시키다\n (조건, 요구)만족시키다"
+    },
+    {
+        "index": "281",
+        "words": "considerable",
+        "means": "상당한"
+    },
+    {
+        "index": "282",
+        "words": "considerate",
+        "means": "사려 깊은"
+    },
+    {
+        "index": "283",
+        "words": "emerge as",
+        "means": "~로서 두각을 나타내다"
+    },
+    {
+        "index": "284",
+        "words": "mergers and acquistions",
+        "means": "M&A 인수합병"
+    },
+    {
+        "index": "285",
+        "words": "commence = initiate",
+        "means": "(사업, 계획) 시작하다"
+    },
+    {
+        "index": "286",
+        "words": "renowned",
+        "means": "저명한, 유명한"
+    },
+    {
+        "index": "287",
+        "words": "informed",
+        "means": "정보에 근거한"
+    },
+    {
+        "index": "288",
+        "words": "minutes",
+        "means": "회의록"
+    },
+    {
+        "index": "289",
+        "words": "waive",
+        "means": "(규칙) 적용하지 않다, \n (권리) 포기하다"
+    },
+    {
+        "index": "290",
+        "words": "authorship",
+        "means": "(원) 저자"
+    },
+    {
+        "index": "291",
+        "words": "edge",
+        "means": "우위, 유리함, 가장자리, 끝"
+    },
+    {
+        "index": "292",
+        "words": "premier",
+        "means": "으뜸의, 첫째의"
+    },
+    {
+        "index": "293",
+        "words": "printed agenda",
+        "means": "인쇄된 회의 의제"
+    },
+    {
+        "index": "294",
+        "words": "on the agenda",
+        "means": "의제에 올라 있는"
+    },
+    {
+        "index": "295",
+        "words": "convene",
+        "means": "(회원) 모이다, (회의) 개최되다"
+    },
+    {
+        "index": "296",
+        "words": "refute",
+        "means": "부인하다, 반박하다"
+    },
+    {
+        "index": "297",
+        "words": "unanimous",
+        "means": "만장일치의, 동의하는"
+    },
+    {
+        "index": "298",
+        "words": "express unanimous support",
+        "means": "만장일치의 지지를 표명하다"
+    },
+    {
+        "index": "299",
+        "words": "consensus",
+        "means": "여론, 일치된 의견"
+    },
+    {
+        "index": "300",
+        "words": "general consensus",
+        "means": "전반적인 여론"
+    },
+    {
+        "index": "301",
+        "words": "reach a consensus on",
+        "means": "~에 합의를 보다"
+    },
+    {
+        "index": "302",
+        "words": "defer",
+        "means": "연기하다, 미루다"
+    },
+    {
+        "index": "303",
+        "words": "determine",
+        "means": "알아내다, 결정하다, 확정하다"
+    },
+    {
+        "index": "304",
+        "words": "determine the cause of",
+        "means": "~의 원인을 알아내다"
+    },
+    {
+        "index": "305",
+        "words": "attentive to",
+        "means": "~을 경청하는"
+    },
+    {
+        "index": "306",
+        "words": "coinccidentally",
+        "means": "우연히, 일치하게"
+    },
+    {
+        "index": "307",
+        "words": "lead to inflation",
+        "means": "인플레이션을 초래하다"
+    },
+    {
+        "index": "308",
+        "words": "turnover",
+        "means": "총 매상고, 거래액, 이직률"
+    },
+    {
+        "index": "309",
+        "words": "expansion project",
+        "means": "확장 계획"
+    },
+    {
+        "index": "310",
+        "words": "building expansion",
+        "means": "건물 확장"
+    },
+    {
+        "index": "311",
+        "words": "refinery expansion",
+        "means": "제련소 확장"
+    },
+    {
+        "index": "312",
+        "words": "competitiveness",
+        "means": "경쟁력"
+    },
+    {
+        "index": "313",
+        "words": "dedicated",
+        "means": "(목표 등에)전념한는, 헌신적인"
+    },
+    {
+        "index": "314",
+        "words": "understanding",
+        "means": "이해심 있는"
+    },
+    {
+        "index": "315",
+        "words": "adjourn",
+        "means": "(회의 등을) 휴회하다"
+    },
+    {
+        "index": "316",
+        "words": "preside",
+        "means": "(회의의) 의장을 보다"
+    },
+    {
+        "index": "317",
+        "words": "preside over",
+        "means": "~의 사회를 보다, 통솔하다"
+    },
+    {
+        "index": "318",
+        "words": "irrespective of",
+        "means": "~와 상관없이"
+    },
+    {
+        "index": "319",
+        "words": "inhibition",
+        "means": "(감정의) 거리낌, 억압"
+    },
+    {
+        "index": "320",
+        "words": "on leave",
+        "means": "휴가로"
+    },
+    {
+        "index": "321",
+        "words": "ahead of/behind schedule",
+        "means": "예정보다 먼저/늦게"
+    },
+    {
+        "index": "322",
+        "words": "assent",
+        "means": "찬성하다, 승인, 동의"
+    },
+    {
+        "index": "323",
+        "words": "show little regard for",
+        "means": "~에 대해 거의 관심을 보이지 X"
+    },
+    {
+        "index": "324",
+        "words": "send one's regards",
+        "means": "안부를 전하다"
+    },
+    {
+        "index": "325",
+        "words": "tentative",
+        "means": "임시적인, 잠정적인"
+    },
+    {
+        "index": "326",
+        "words": "be tantatively scheduled for",
+        "means": "기간 잠정적으로 ~로 예정되다"
+    },
+    {
+        "index": "327",
+        "words": "a welcome addition to",
+        "means": "~에 환영받는 물건/사람"
+    },
+    {
+        "index": "328",
+        "words": "be welcome to do",
+        "means": "~을 자유로이 할 수 있다"
+    },
+    {
+        "index": "329",
+        "words": "function",
+        "means": "행사, 연회"
+    },
+    {
+        "index": "330",
+        "words": "commence",
+        "means": "시작되다"
+    },
+    {
+        "index": "331",
+        "words": "appraisal",
+        "means": "평가"
+    },
+    {
+        "index": "332",
+        "words": "performance appraisals",
+        "means": "실적 평가, 고과"
+    },
+    {
+        "index": "333",
+        "words": "radically",
+        "means": "완전히, 철저히"
+    },
+    {
+        "index": "334",
+        "words": "competent",
+        "means": "유능한, 능숙한"
+    },
+    {
+        "index": "335",
+        "words": "inexperienced",
+        "means": "경험 없는, 미숙한"
+    },
+    {
+        "index": "336",
+        "words": "explain/know + in detail",
+        "means": "상세히 설명하다/알다"
+    },
+    {
+        "index": "337",
+        "words": "a feasible alternative to",
+        "means": "~에 대한 현실성 있는 대안"
+    },
+    {
+        "index": "338",
+        "words": "automative",
+        "means": "자동차의"
+    },
+    {
+        "index": "339",
+        "words": "crowded",
+        "means": "붐비는, 복잡한"
+    },
+    {
+        "index": "340",
+        "words": "unterdo construction/renovations",
+        "means": "공사/보수를 치루다"
+    },
+    {
+        "index": "341",
+        "words": "undergo extensive training",
+        "means": "폭 넓은 훈련을 받다"
+    },
+    {
+        "index": "342",
+        "words": "undergo improvement",
+        "means": "개선을 거치다"
+    },
+    {
+        "index": "343",
+        "words": "narrowly",
+        "means": "주의 깊게, 좁게, 겨우"
+    },
+    {
+        "index": "344",
+        "words": "be narrowly focused on",
+        "means": "~에 주의 깊게 집중하다"
+    },
+    {
+        "index": "345",
+        "words": "breif A on B",
+        "means": "A에게 B를간단히 설명하다"
+    },
+    {
+        "index": "346",
+        "words": "delinquent",
+        "means": "(세금 등이) 연체된, 미불의"
+    },
+    {
+        "index": "347",
+        "words": "remainder = balance",
+        "means": "잔고"
+    },
+    {
+        "index": "348",
+        "words": "conduct an investigation",
+        "means": "조사하다"
+    },
+    {
+        "index": "349",
+        "words": "on account of",
+        "means": "~때문에"
+    },
+    {
+        "index": "350",
+        "words": "account for",
+        "means": "~의 이유를 밝히다, 차지하다"
+    },
+    {
+        "index": "351",
+        "words": "statement",
+        "means": "명세서, 성명서"
+    },
+    {
+        "index": "352",
+        "words": "in the interest of",
+        "means": "~을 위하여"
+    },
+    {
+        "index": "353",
+        "words": "a vested interest",
+        "means": "기득권"
+    },
+    {
+        "index": "354",
+        "words": "tentatively",
+        "means": "임시로, 시험적으로"
+    },
+    {
+        "index": "355",
+        "words": "payable",
+        "means": "지불해야 하는"
+    },
+    {
+        "index": "356",
+        "words": "personally welcome",
+        "means": "친히 환영하다"
+    },
+    {
+        "index": "357",
+        "words": "lucrative",
+        "means": "수익성 있는, 돈벌이가 되는"
+    },
+    {
+        "index": "358",
+        "words": "inherently",
+        "means": "본질적으로"
+    },
+    {
+        "index": "359",
+        "words": "in the forseeable future",
+        "means": "당분간, 가까운 장래에"
+    },
+    {
+        "index": "360",
+        "words": "innate",
+        "means": "타고난"
+    },
+    {
+        "index": "361",
+        "words": "for one's continued support",
+        "means": "~의 지속적인 성원에 대해"
+    },
+    {
+        "index": "362",
+        "words": "in any way possible",
+        "means": "가능한 어떻게든"
+    },
+    {
+        "index": "363",
+        "words": "yield",
+        "means": "(이윤을) 가져오다, 산출하다"
+    },
+    {
+        "index": "364",
+        "words": "spacious = roomy",
+        "means": "(공간이) 넓은"
+    },
+    {
+        "index": "365",
+        "words": "drape",
+        "means": "(방 등을 커튼 등으로) 장식하다"
+    },
+    {
+        "index": "366",
+        "words": "contractor",
+        "means": "계약자"
+    },
+    {
+        "index": "367",
+        "words": "a renewal of urban towns",
+        "means": "도시의 재개발"
+    },
+    {
+        "index": "368",
+        "words": "adjacent to",
+        "means": "~에 인접한"
+    },
+    {
+        "index": "369",
+        "words": "utility company",
+        "means": "(전기, 가스 공급) 공공기업"
+    },
+    {
+        "index": "370",
+        "words": "no utilities included",
+        "means": "공과금 별도"
+    },
+    {
+        "index": "371",
+        "words": "platform",
+        "means": "승강장"
+    },
+    {
+        "index": "372",
+        "words": "public transit",
+        "means": "대중교통"
+    },
+    {
+        "index": "373",
+        "words": "in transit",
+        "means": "수송 중, 이동 중"
+    },
+    {
+        "index": "374",
+        "words": "outstanding expenses",
+        "means": "미결제 비용"
+    },
+    {
+        "index": "375",
+        "words": "tariff",
+        "means": "관세"
+    },
+    {
+        "index": "376",
+        "words": "collision",
+        "means": "충돌"
+    },
+    {
+        "index": "377",
+        "words": "tow",
+        "means": "(차를) 견인하다"
+    },
+    {
+        "index": "378",
+        "words": "obstruct",
+        "means": "(전망,도로 등을)차단하다, 막다"
+    },
+    {
+        "index": "379",
+        "words": "habitat",
+        "means": "(동, 식물) 서식지"
+    },
+    {
+        "index": "380",
+        "words": "habitation",
+        "means": "거주"
+    },
+    {
+        "index": "381",
+        "words": "inhabitant",
+        "means": "주민, 거주자"
+    },
+    {
+        "index": "382",
+        "words": "physician",
+        "means": "내과 의사"
+    },
+    {
+        "index": "383",
+        "words": "prescribe",
+        "means": "(약을) 처방하다"
+    },
+    {
+        "index": "384",
+        "words": "fill a prescription",
+        "means": "처방전을 조제하다"
+    },
+    {
+        "index": "385",
+        "words": "cleanliness",
+        "means": "청결"
+    },
+    {
+        "index": "386",
+        "words": "transmit",
+        "means": "전염시키다"
+    },
+    {
+        "index": "387",
+        "words": "trasmission",
+        "means": "전송, 전달"
+    },
+    {
+        "index": "388",
+        "words": "periodically",
+        "means": "주기적으로"
+    },
+    {
+        "index": "389",
+        "words": "financial health",
+        "means": "재정적 안정"
+    },
+    {
+        "index": "390",
+        "words": "induce",
+        "means": "유발하다"
+    },
+    {
+        "index": "391",
+        "words": "insurance policy",
+        "means": "보험 증서"
+    },
+    {
+        "index": "392",
+        "words": "susceptible to",
+        "means": "~에 걸리기 쉬운"
+    },
+    {
+        "index": "393",
+        "words": "market forecast",
+        "means": "시장 전망"
+    },
+    {
+        "index": "394",
+        "words": "significant",
+        "means": "상당한, 중대한, 중요한"
+    },
+    {
+        "index": "395",
+        "words": "be ideal for",
+        "means": "~에 이상적이다"
+    },
+    {
+        "index": "396",
+        "words": "emission",
+        "means": "배기가스, 방출"
+    },
+    {
+        "index": "397",
+        "words": "inflict",
+        "means": "(고통, 피해) 입히다, 가하다"
+    },
+    {
+        "index": "398",
+        "words": "migration",
+        "means": "이동, 이주"
+    },
+    {
+        "index": "399",
+        "words": "immigration",
+        "means": "이민(외국으로 부터 이주)"
+    },
+    {
+        "index": "400",
+        "words": "emigration",
+        "means": "(타국으로) 이주"
+    }
+]
