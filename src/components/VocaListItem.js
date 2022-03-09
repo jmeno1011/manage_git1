@@ -8,11 +8,8 @@ import vocaData from "../json/toeic_voca_2021.json";
 
 const VocaListItem = () => {
   const navigate = useNavigate();
-  //   const { data, loading, error } = useGoogleSheets({
-  //     apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-  //     sheetId: process.env.REACT_APP_GOOGLE_SHEETS_ID,
-  //   });
-
+  const [page, setPage] = useState(10);
+  let [prePage, setPrePage] = useState(0);
   const fetch = async () => {
     try {
       const res = await axios.get(
@@ -27,7 +24,23 @@ const VocaListItem = () => {
     fetch();
     // console.log(vocaData);
   }, []);
-
+  console.log(vocaData.length / page);
+  const pageList = vocaData.length / page;
+  const buttonHandle = (i) => {
+    setPrePage(10 * i);
+    setPage(page * i + 10);
+  };
+  const pageBtn = () => {
+    const result = [];
+    for (let i = 0; i < pageList; i++) {
+      result.push(
+        <button key={i} onClick={() => buttonHandle(i)}>
+          {i + 1}
+        </button>
+      );
+    }
+    return result;
+  };
   return (
     <div>
       <header>
@@ -37,19 +50,20 @@ const VocaListItem = () => {
       <div
         style={{ height: 500, width: 550, margin: "1rem", overflow: "auto" }}
       >
-        <VocaItem />
+        <VocaItem page={page} prePage={prePage} />
       </div>
+      {pageBtn()}
     </div>
   );
 };
 
 export default VocaListItem;
 
-const VocaItem = () => {
+const VocaItem = ({ page, prePage }) => {
   const [limit, setLimit] = useState(10);
   return (
     <>
-      {vocaData.map((value) => (
+      {vocaData.slice(prePage, page).map((value) => (
         <div style={{ width: 530 }} key={value.index}>
           <div className="vocaItem">
             <div className="itemWord">
