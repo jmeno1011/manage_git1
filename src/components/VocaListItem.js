@@ -8,39 +8,9 @@ import vocaData from "../json/toeic_voca_2021.json";
 
 const VocaListItem = () => {
   const navigate = useNavigate();
-  const [page, setPage] = useState(10);
-  let [prePage, setPrePage] = useState(0);
-  const fetch = async () => {
-    try {
-      const res = await axios.get(
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTZGWwvVmCADcl0PANk9FE364lSw1xZIVHkS5QIJIj6SG_VgLdUHsRa4MTmvs5jAMhah7EN9CEh-Jvw/pubhtml"
-      );
-      //   console.log(res);
-      return res;
-    } catch {}
-  };
-
-  useEffect(() => {
-    fetch();
-    // console.log(vocaData);
-  }, []);
-  console.log(vocaData.length / page);
-  const pageList = vocaData.length / page;
-  const buttonHandle = (i) => {
-    setPrePage(10 * i);
-    setPage(page * i + 10);
-  };
-  const pageBtn = () => {
-    const result = [];
-    for (let i = 0; i < pageList; i++) {
-      result.push(
-        <button key={i} onClick={() => buttonHandle(i)}>
-          {i + 1}
-        </button>
-      );
-    }
-    return result;
-  };
+  const [limit, setLimit] = useState(10);
+  const [page, setPage] = useState(1);
+  const offset = (page - 1) * limit;
   return (
     <div>
       <header>
@@ -50,20 +20,24 @@ const VocaListItem = () => {
       <div
         style={{ height: 500, width: 550, margin: "1rem", overflow: "auto" }}
       >
-        <VocaItem page={page} prePage={prePage} />
+        <VocaItem offset={offset} limit={limit} />
       </div>
-      {pageBtn()}
+      <Pagenation
+        total={vocaData.length}
+        limit={limit}
+        page={page}
+        setPage={setPage}
+      />
     </div>
   );
 };
 
 export default VocaListItem;
 
-const VocaItem = ({ page, prePage }) => {
-  const [limit, setLimit] = useState(10);
+const VocaItem = ({ offset, limit }) => {
   return (
     <>
-      {vocaData.slice(prePage, page).map((value) => (
+      {vocaData.slice(offset, offset + limit).map((value) => (
         <div style={{ width: 530 }} key={value.index}>
           <div className="vocaItem">
             <div className="itemWord">
@@ -100,5 +74,30 @@ const VocaItem = ({ page, prePage }) => {
         </div>
       ))}
     </>
+  );
+};
+
+const Pagenation = ({ total, limit, page, setPage }) => {
+  const numPages = Math.ceil(total / limit);
+  return (
+    <div>
+      <button onClick={() => setPage(page - 1)} disabled={page === 1}>
+        &lt;
+      </button>
+      {Array(numPages)
+        .fill()
+        .map((_, i) => (
+          <button
+            key={i + 1}
+            onClick={() => setPage(i + 1)}
+            aria-current={page === i + 1 ? "page" : null}
+          >
+            {i + 1}
+          </button>
+        ))}
+      <button onClick={() => setPage(page + 1)} disabled={page === numPages}>
+        &gt;
+      </button>
+    </div>
   );
 };
