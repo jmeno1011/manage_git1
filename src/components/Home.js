@@ -24,6 +24,9 @@ const Home = () => {
           <li>
             <Link to={"/voca"}>voca (단어장)</Link>
           </li>
+          <li>
+            <Link to={"/d3"}>D3 연습</Link>
+          </li>
         </ul>
       </section>
       <footer>푸터</footer>

@@ -171,7 +171,7 @@ const ButtonSlider = () => {
   };
   return (
     <div className="box">
-      <h2>Carousel - AutoSlider</h2>
+      <h2>Carousel - Use button</h2>
       <div
         style={{ display: "flex", flexDirection: "column", margin: "0 auto" }}
       >
