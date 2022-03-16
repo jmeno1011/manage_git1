@@ -13,10 +13,10 @@ const Home = () => {
             <Link to={"/about"}>about</Link>
           </li>
           <li>
-            <Link to={"/carousel"}>carousel (슬라이더)</Link>
+            <Link to={"/carousel"}>carousel (슬라이더)✅</Link>
           </li>
           <li>
-            <Link to={"/clip-board"}>clip-board (클립보드)</Link>
+            <Link to={"/clip-board"}>clip-board (클립보드)✅</Link>
           </li>
           <li>
             <Link to={"/keyboard"}>keyboard (가상 키보드)</Link>

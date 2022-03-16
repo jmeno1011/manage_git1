@@ -1,9 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { select } from "d3";
-import { scaleBand } from "d3";
-import { scaleLinear } from "d3";
-import { axisBottom } from "d3";
-import { axisLeft } from "d3";
+import { select, scaleBand, scaleLinear, axisBottom, axisLeft } from "d3";
 // https://darrengwon.tistory.com/1140?category=942624
 // 위 블로그에서 참고중
 const Bar = () => {
@@ -13,11 +9,16 @@ const Bar = () => {
   useEffect(() => {
     const svg = select(svgRef.current); // selection 객체
 
-    // scale
+    // scale 그래프의 크기를 나타냄
     const xScale = scaleBand()
       .domain(data.map((value, index) => index))
+      // range([0, 300])=> 300px xScale이면 가로로
       .range([0, 300])
+      // padding(0.5) => 그래프간의 간격
       .padding(0.5);
+
+    // domain([0, 150]) => 데이터의 범위 0~150
+    // range([150, 0]) => 150px의 세로
     const yScale = scaleLinear().domain([0, 150]).range([150, 0]);
 
     // axis
@@ -26,6 +27,7 @@ const Bar = () => {
 
     const yAxis = axisLeft(yScale);
     svg.select(".y-axis").style("transform", "translateX(300px)").call(yAxis);
+
     svg
       .selectAll(".bar")
       .data(data)
@@ -38,8 +40,12 @@ const Bar = () => {
 
   return (
     <>
+      {/* <div style={{ padding: 50, background: "#f7982c" }}> */}
       <div style={{ padding: 50 }}>
-        <svg ref={svgRef} style={{ margin: 5 }}>
+        <svg
+          ref={svgRef}
+          style={{ margin: 5, border: "1px solid", padding: 10 }}
+        >
           <g className="y-axis" />
           <g className="x-axis" />
         </svg>
