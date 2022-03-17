@@ -8,6 +8,7 @@ import ClipBoard from "./components/ClipBoard";
 import Keyboard from "./components/Keyboard";
 import VocaListItem from "./components/VocaListItem";
 import D3 from "./components/D3";
+import TestAxios from "./components/TestAxios";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/keyboard" element={<Keyboard />} />
       <Route path="/voca" element={<VocaListItem />} />
       <Route path="/d3" element={<D3 />} />
+      <Route path="/axios" element={<TestAxios />} />
     </Routes>
   );
 }
