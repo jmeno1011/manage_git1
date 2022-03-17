@@ -13,8 +13,27 @@ const CarouselBasic = () => {
     <div>
       <header>
         <h1>Carousel</h1>
-        <button onClick={() => navigate(-1)}>Go back</button>
+        <button onClick={() => navigate("/")}>Go home</button>
       </header>
+      <div>
+        <p>
+          아래 두 줄을 html에 추가해야 됨
+          <br />
+          {`<link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />`}
+          <br />
+          {`
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />`}
+        </p>
+      </div>
       <div style={{ display: "flex" }}>
         <SimpleSlider />
         <MultiSlider />
