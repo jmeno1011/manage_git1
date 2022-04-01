@@ -3,18 +3,18 @@ import React, { useEffect, useState } from "react";
 
 const TestAxios = () => {
   const [data, setData] = useState();
-  //   const fetch = async () => {
-  //     try {
-  //       const response = await axios.get("http://127.0.0.1:5000/post/EP0018/6");
-  //       console.log(response.data);
-  //       setData(response.data);
-  //     } catch (e) {
-  //       console.log(e);
-  //     }
-  //   };
-  //   useEffect(() => {
-  //     fetch();
-  //   }, []);
+    const fetch = async () => {
+      try {
+        const response = await axios.get("https://node-express-two.vercel.app/test-api");
+        console.log(response.data);
+        setData(response.data);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+    useEffect(() => {
+      fetch();
+    }, []);
   return (
     <div>
       <h1>TestAxios</h1>
