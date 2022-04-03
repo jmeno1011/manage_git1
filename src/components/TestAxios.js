@@ -27,12 +27,6 @@ const TestAxios = () => {
       <div style={{ padding: "1rem" }}>
         <h2>{data && data.status}</h2>
         <h2>{data && data.message}</h2>
-        {/* <h4>hamdsum : {data.pre_hamdsum}</h4>
-      {data.pre_hamd.map((value, index) => (
-        <h4 key={index}>
-          {index + 1} : {value}
-        </h4>
-      ))} */}
       </div>
     </>
   );
