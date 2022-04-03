@@ -27,6 +27,9 @@ const Home = () => {
           <li>
             <Link to={"/d3"}>D3 연습</Link>
           </li>
+          <li>
+            <Link to={"/dev"}>Dev 확인</Link>
+          </li>
         </ul>
       </section>
       <footer>푸터</footer>

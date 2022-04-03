@@ -9,6 +9,7 @@ import Keyboard from "./components/Keyboard";
 import VocaListItem from "./components/VocaListItem";
 import D3 from "./components/D3";
 import TestAxios from "./components/TestAxios";
+import DevConfirm from "./components/DevConfirm";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/voca" element={<VocaListItem />} />
       <Route path="/d3" element={<D3 />} />
       <Route path="/axios" element={<TestAxios />} />
+      <Route path="/dev" element={<DevConfirm />} />
     </Routes>
   );
 }
