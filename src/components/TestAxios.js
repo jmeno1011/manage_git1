@@ -1,8 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const TestAxios = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState();
   const fetch = async () => {
     try {
@@ -22,7 +23,7 @@ const TestAxios = () => {
     <>
       <header>
         <h1>DevConfirm</h1>
-        <button onClick={() => Navigate("/")}>Go home</button>
+        <button onClick={() => navigate("/")}>Go home</button>
       </header>
       <div style={{ padding: "1rem" }}>
         <h2>{data && data.status}</h2>
