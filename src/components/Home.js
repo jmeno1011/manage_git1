@@ -30,6 +30,9 @@ const Home = () => {
           <li>
             <Link to={"/dev"}>Dev 확인</Link>
           </li>
+          <li>
+            <Link to={"/login"}>LoginForm 확인</Link>
+          </li>
         </ul>
       </section>
       <footer>푸터</footer>
