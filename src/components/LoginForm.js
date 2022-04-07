@@ -15,17 +15,28 @@ const LoginForm = () => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "https://railway-node-express-production.up.railway.app/login",
+      url: "/login",
+      //   url: "http://localhost:8000/login",
       data: data,
-      withCreadentials: true
-    }).then((res) => console.log("login result :: ", res.data));
+    })
+      .then((res) => {
+        const accessToken = res.data.accessToken;
+        axios.defaults.headers.common[
+          "Authorization"
+        ] = `Bearer::${accessToken}`;
+        console.log("login result :: ", res.data);
+      })
+      .catch((error) => {
+        console.log("error:: ", error);
+      });
   };
   const callLogged = (e) => {
     e.preventDefault();
     axios({
       method: "get",
-      url: "https://railway-node-express-production.up.railway.app/logged",
-      withCreadentials: true
+      url: "/api",
+      //   url: "http://localhost:8000/logged",
+      //   url: "http://localhost:8000/login",
     }).then((res) => {
       console.log(`logged::result:: ${res.data}`);
       setLogged(res.data);

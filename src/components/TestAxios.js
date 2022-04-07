@@ -7,15 +7,19 @@ const TestAxios = () => {
   const [data, setData] = useState();
   const [barData, setBarData] = useState([]);
   const showBarData = async () => {
-    try {
-      const response = await axios.get(
-        "https://railway-node-express-production.up.railway.app/bar-chart"
-      );
-      console.log("barData::", response.data);
-      setBarData(response.data);
-    } catch (e) {
-      console.log(e);
-    }
+      // const response = await axios.get(
+      axios.get(
+        "/bar-chart"
+      ).then((res)=>{
+        // const accessToken = res.data.accessToken;
+        // axios.defaults.headers.common[
+        //   "Authorization"
+        // ] = `Bearer ${accessToken}`;
+        // console.log("barData::", res.data);
+        setBarData(res.data);
+      }).catch(e=> {
+        console.log(e);
+      })
   };
   const fetch = async () => {
     try {
