@@ -4,15 +4,34 @@ import * as d3 from "d3";
 const circleRadius = [5, 10, 15, 20, 25];
 
 const Circle = () => {
+  const initRef = useRef();
   const svgRef = useRef();
 
   useEffect(() => {
-    const svg = d3.select(svgRef.current);
+    // 그림 그릴 곳을 선택함
+    const svg = d3.select(initRef.current);
+    svg.attr("viewBox", [0, 0, 200, 200]);
 
     svg
-      //   .attr("width", width)
-      //   .attr("height", height)
-      .style("border", "1px solid black");
+      .append("circle")
+      .attr("cx", 75)
+      .attr("cy", 75)
+      .attr("r", 50)
+      .attr("stroke", "black")
+      .attr("fill", "#69a3b2");
+    svg
+      .append("g")
+      .append("text")
+      .attr("x", 75)
+      .attr("y", 75)
+      .text("(75,75)")
+      .attr("dy", -5)
+      .attr("font-size", 12);
+    svg.append("circle").attr("cx", 75).attr("cy", 75).attr("r", 2);
+  }, []);
+
+  useEffect(() => {
+    const svg = d3.select(svgRef.current);
     const g = svg.selectAll("g");
     g.data(circleRadius)
       .enter()
@@ -27,7 +46,23 @@ const Circle = () => {
   return (
     <>
       <h1>Circle</h1>
-      <svg ref={svgRef}></svg>
+      <div style={{ display: "flex" }}>
+        <div
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "1px solid black",
+            marginRight: "8px",
+          }}
+        >
+          <svg ref={initRef}></svg>
+        </div>
+        <div
+          style={{ width: "300px", height: "200px", border: "1px solid black" }}
+        >
+          <svg ref={svgRef}></svg>
+        </div>
+      </div>
     </>
   );
 };

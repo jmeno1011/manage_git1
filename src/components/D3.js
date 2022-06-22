@@ -4,6 +4,8 @@ import { Icon } from "@iconify/react";
 import Bar from "./D3/Bar";
 import styled from "styled-components";
 import Circle from "./D3/Circle";
+import RectEx from "./D3/Rect";
+import ExRect from "./D3/ExRect";
 import Rect from "./D3/Rect";
 
 const D3 = () => {
