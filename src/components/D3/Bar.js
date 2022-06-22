@@ -8,6 +8,7 @@ const Bar = () => {
 
   useEffect(() => {
     const svg = select(svgRef.current); // selection 객체
+    svg.style("border", "1px solid black");
 
     // scale 그래프의 크기를 나타냄
     const xScale = scaleBand()
@@ -41,15 +42,13 @@ const Bar = () => {
   return (
     <>
       {/* <div style={{ padding: 50, background: "#f7982c" }}> */}
-      <div style={{ padding: 50 }}>
-        <svg
-          ref={svgRef}
-          style={{ margin: 5, border: "1px solid", padding: 10 }}
-        >
+      <>
+        <h1>Bar Chart</h1>
+        <svg ref={svgRef} style={{ margin: 5, border: "1px solid" }}>
           <g className="y-axis" />
           <g className="x-axis" />
         </svg>
-      </div>
+      </>
     </>
   );
 };

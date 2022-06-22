@@ -21,7 +21,10 @@ function App() {
       <Route path="/clip-board" element={<ClipBoard />} />
       <Route path="/keyboard" element={<Keyboard />} />
       <Route path="/voca" element={<VocaListItem />} />
-      <Route path="/d3" element={<D3 />} />
+      <Route path="/d3" element={<D3 />}>
+        <Route path="bar" element={<Bar />} />
+        <Route path="circle" element={<Circle />} />
+      </Route>
       <Route path="/axios" element={<TestAxios />} />
       <Route path="/dev" element={<DevConfirm />} />
       <Route path="/login" element={<LoginForm />} />

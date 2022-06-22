@@ -1,25 +1,39 @@
-body{
-  font-family: "나눔바른고딕 옛한글","NanumBarunGothic YetHangul",-apple-system,BlinkMacSystemFont,Arial,"Apple SD Gothic Neo",NanumGothic,Dotum,"새굴림",sans-serif,FZSongS_Extended;
+body {
+  font-family: "나눔바른고딕 옛한글", "NanumBarunGothic YetHangul",
+    -apple-system, BlinkMacSystemFont, Arial, "Apple SD Gothic Neo", NanumGothic,
+    Dotum, "새굴림", sans-serif, FZSongS_Extended;
 }
-header{
+header {
   height: 80px;
   width: 100%;
   background: darkolivegreen;
   color: white;
 }
-section{
+section {
   height: 100%;
   width: 100%;
   background: lightblue;
   padding: 1rem;
 }
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
-footer{
+footer {
   height: 80px;
   width: 100%;
   background: darkolivegreen;
   color: white;
+}
+.App {
+  min-height: 100vh;
+  position: relative;
+  background: lightblue;
+}
+
+.App footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

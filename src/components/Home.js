@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <header>
         <h1>헤더</h1>
       </header>
-      <section>
+      <Menu>
         <ul>
           <li>
             <Link to={"/about"}>about</Link>
@@ -34,10 +35,14 @@ const Home = () => {
             <Link to={"/login"}>LoginForm 확인</Link>
           </li>
         </ul>
-      </section>
+      </Menu>
       <footer>푸터</footer>
     </div>
   );
 };
 
 export default Home;
+
+const Menu = styled.menu`
+  padding: 16px;
+`;
