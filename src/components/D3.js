@@ -1,11 +1,9 @@
 import React from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import Bar from "./D3/Bar";
 import styled from "styled-components";
 import Circle from "./D3/Circle";
-import RectEx from "./D3/Rect";
-import ExRect from "./D3/ExRect";
 import Rect from "./D3/Rect";
 
 const D3 = () => {
@@ -14,22 +12,11 @@ const D3 = () => {
     <div>
       <header style={{ display: "flex" }}>
         <Title>D3</Title>
-        <Title onClick={() => navigate(-1)}>
+        <Title onClick={() => navigate("/")}>
           <Icon icon="emojione-monotone:back-arrow" />
         </Title>
-        <Nav>
-          <ul>
-            <li>
-              <Link to={"bar"}>・Bar</Link>
-            </li>
-            <li>
-              <Link to={"circle"}>・Circle</Link>
-            </li>
-          </ul>
-        </Nav>
       </header>
       <Layout>
-        {/* <Outlet /> */}
         <Bar />
         <Circle />
         <Rect />
