@@ -10,6 +10,7 @@ const Todolist = () => {
       <ListBox>
         <TodoHeader />
         <TodolistAdd />
+        <TodoItem />
       </ListBox>
     </Layout>
   );
@@ -28,13 +29,13 @@ const Layout = styled.div`
 
 const ListBox = styled.div`
   width: 400px;
-  height: 500px;
+  /* height: 500px; */
   padding: 12px 16px;
   border-radius: 6px;
   box-shadow: 1px 3px 13px 7px rgb(0 0 0 / 30%);
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: brightness(1.1);
-  color: #386cdd;
+  color: #308bd9;
   font-family: "Montserrat", sans-serif;
 `;
 
@@ -96,6 +97,7 @@ const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 32px;
   svg {
     position: absolute;
     top: 0;
@@ -119,7 +121,8 @@ const Header = styled.div`
 const TodolistAdd = () => {
   return (
     <Adder>
-      <Icon icon="carbon:add" />
+      <Icon icon="dashicons:plus-alt2" />
+      {/* <Icon icon="emojione-monotone:heavy-plus-sign" /> */}
       <div>Add New</div>
     </Adder>
   );
@@ -128,4 +131,48 @@ const TodolistAdd = () => {
 const Adder = styled.div`
   width: 100%;
   display: flex;
+  align-items: center;
+  /* background-color: rgba(56, 108, 221, 20%); */
+  background-color: rgba(48, 139, 217, 20%);
+  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2px 7px;
+  svg {
+    height: 30px;
+    width: 30px;
+    margin-right: 16px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  div {
+    font-size: 18px;
+  }
+  margin-bottom: 32px;
+`;
+
+const TodoItem = () => {
+  return (
+    <Item>
+      <div></div>
+      <label>Buy New IPhone</label>
+    </Item>
+  );
+};
+const Item = styled.div`
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.5);
+  div {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(128, 128, 128, 0.3);
+    margin-right: 32px;
+  }
+  label {
+    font-size: 18px;
+  }
 `;
