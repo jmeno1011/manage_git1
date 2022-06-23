@@ -5,16 +5,10 @@ import cat2 from "./image/cat2.jpg";
 import cat3 from "./image/cat3.jpg";
 import cat4 from "./image/cat4.jpg";
 import "./Carousel.css";
-import { useNavigate } from "react-router-dom";
 
 const CarouselBasic = () => {
-  const navigate = useNavigate();
   return (
     <div>
-      <header>
-        <h1>Carousel</h1>
-        <button onClick={() => navigate("/")}>Go home</button>
-      </header>
       <div>
         <p>
           아래 두 줄을 html에 추가해야 됨

@@ -27,11 +27,6 @@ const ClipBoard = () => {
   };
   return (
     <div>
-      <header>
-        <h1>ClipBoard</h1>
-        <button onClick={() => navigate(-1)}>Go back</button>
-      </header>
-
       <div className="copy-area">
         <pre className="copy-area-pre">{pre_text}</pre>
         <div className="copy-icon-wrapper" onClick={() => copy(0)}>

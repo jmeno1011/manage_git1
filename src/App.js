@@ -16,17 +16,18 @@ import Todolist from "./components/todolist/Todolist";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="carousel" element={<CarouselBasic />} />
-      <Route path="clip-board" element={<ClipBoard />} />
-      <Route path="keyboard" element={<Keyboard />} />
-      <Route path="voca" element={<VocaListItem />} />
-      <Route path="d3" element={<D3 />} />
-      <Route path="axios" element={<TestAxios />} />
-      <Route path="dev" element={<DevConfirm />} />
-      <Route path="login" element={<LoginForm />} />
-      <Route path="todolist" element={<Todolist />} />
+      <Route path="/" element={<Home />}>
+        <Route path="about" element={<About />} />
+        <Route path="carousel" element={<CarouselBasic />} />
+        <Route path="clip-board" element={<ClipBoard />} />
+        <Route path="keyboard" element={<Keyboard />} />
+        <Route path="voca" element={<VocaListItem />} />
+        <Route path="d3" element={<D3 />} />
+        <Route path="axios" element={<TestAxios />} />
+        <Route path="dev" element={<DevConfirm />} />
+        <Route path="login" element={<LoginForm />} />
+        <Route path="todolist" element={<Todolist />} />
+      </Route>
     </Routes>
   );
 }

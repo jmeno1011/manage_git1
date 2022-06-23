@@ -1,22 +1,14 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import "./vocaListItem.css";
-import axios from "axios";
-import { useEffect } from "react";
 import vocaData from "../json/toeic_voca_2021.json";
 
 const VocaListItem = () => {
-  const navigate = useNavigate();
   const [limit, setLimit] = useState(10);
   const [page, setPage] = useState(1);
   const offset = (page - 1) * limit;
   return (
     <div>
-      <header>
-        <h1>Voca</h1>
-        <button onClick={() => navigate(-1)}>Go back</button>
-      </header>
       <div
         style={{ height: 500, width: 550, margin: "1rem", overflow: "auto" }}
       >

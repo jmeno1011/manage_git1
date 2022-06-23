@@ -27,25 +27,41 @@ const Home = () => {
             <li>
               <Link to={"/d3"}>D3 연습</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to={"/dev"}>Dev 확인</Link>
             </li>
             <li>
               <Link to={"/login"}>LoginForm 확인</Link>
-            </li>
+            </li> */}
             <li>
               <Link to={"/todolist"}>투두 리스트</Link>
             </li>
           </ul>
         </Menu>
       </Header>
-      <Outlet />
+      <Layout>
+        <Outlet />
+      </Layout>
       <footer>푸터</footer>
     </div>
   );
 };
 
 export default Home;
+
+const Header = styled.header`
+  min-height: 80px;
+  height: fit-content;
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  background: darkolivegreen;
+  color: white;
+  h1 {
+    min-width: 70px;
+  }
+`;
 
 const Menu = styled.nav`
   ul {
@@ -64,16 +80,6 @@ const Menu = styled.nav`
   }
 `;
 
-const Header = styled.header`
-  min-height: 80px;
-  height: fit-content;
-  width: 100%;
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  background: darkolivegreen;
-  color: white;
-  h1 {
-    min-width: 70px;
-  }
+const Layout = styled.div`
+  padding: 16px;
 `;

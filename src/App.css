@@ -12,7 +12,7 @@ header {
 section {
   height: 100%;
   width: 100%;
-  background: lightblue;
+  /* background: lightblue; */
   padding: 1rem;
 }
 ul {
@@ -28,12 +28,12 @@ footer {
 .App {
   min-height: 100vh;
   position: relative;
-  background: lightblue;
+  /* background: lightblue; */
 }
 
 .App footer {
-  position: absolute;
+  /* position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
 }
