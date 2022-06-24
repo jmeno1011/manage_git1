@@ -4,13 +4,16 @@ import { Icon } from "@iconify/react";
 import { useState } from "react";
 
 const Todolist = () => {
+  const [todos, setTodos] = useState(data);
   return (
     <Layout>
       {/* <h1 style={{ marginBottom: "16px" }}>Todolist</h1> */}
       <ListBox>
         <TodoHeader />
         <TodolistAdd />
-        <TodoItem />
+        {todos.map((todo) => (
+          <TodoItem todo={todo} key={todo.id} />
+        ))}
       </ListBox>
     </Layout>
   );
@@ -150,12 +153,33 @@ const Adder = styled.div`
   }
   margin-bottom: 32px;
 `;
+const data = [
+  {
+    id: 1,
+    text: "Study HTTP book",
+    checked: false,
+  },
+  {
+    id: 2,
+    text: "Study todo list",
+    checked: true,
+  },
+];
+const TodoItem = (props) => {
+  const { text, checked } = props.todo;
+  const [chked, setChked] = useState(false);
 
-const TodoItem = () => {
   return (
     <Item>
-      <div></div>
-      <label>Buy New IPhone</label>
+      <div onClick={() => setChked(!chked)}>
+        {checked ? (
+          <Icon icon="carbon:checkbox-checked" />
+        ) : (
+          <Icon icon="carbon:checkbox" />
+        )}
+      </div>
+      <label>{text}</label>
+      <Icon icon="bi:trash" />
     </Item>
   );
 };
@@ -166,13 +190,32 @@ const Item = styled.div`
   display: flex;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.5);
+  position: relative;
   div {
     height: 30px;
     width: 30px;
     background-color: rgb(128, 128, 128, 0.3);
     margin-right: 32px;
+    position: relative;
+    cursor: pointer;
+    svg {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
   }
   label {
     font-size: 18px;
+    user-select: none;
+  }
+  > svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 16px;
   }
 `;
