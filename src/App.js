@@ -12,6 +12,7 @@ import TestAxios from "./components/TestAxios";
 import DevConfirm from "./components/DevConfirm";
 import LoginForm from "./components/LoginForm";
 import Todolist from "./components/todolist/Todolist";
+import GDash from "./components/google-chart/GDash";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="dev" element={<DevConfirm />} />
         <Route path="login" element={<LoginForm />} />
         <Route path="todolist" element={<Todolist />} />
+        <Route path="google-chart" element={<GDash />} />
       </Route>
     </Routes>
   );

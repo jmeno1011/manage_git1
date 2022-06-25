@@ -36,6 +36,9 @@ const Home = () => {
             <li>
               <Link to={"/todolist"}>투두 리스트</Link>
             </li>
+            <li>
+              <Link to={"/google-chart"}>구글 차트</Link>
+            </li>
           </ul>
         </Menu>
       </Header>
