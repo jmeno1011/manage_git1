@@ -1,26 +1,30 @@
 import React from "react";
 import { Chart } from "react-google-charts";
 
+const data = [
+  ["Name", "Age"],
+  ["Michael", 12],
+  ["Elisa", 20],
+  ["Robert", 7],
+  ["John", 54],
+  ["Jessica", 22],
+  ["Aaron", 3],
+  ["Margareth", 42],
+  ["Miranda", 33],
+];
+
 const BarDashboard = () => {
   return (
-    <div>
-      <h3 style={{ marginBottom: "8px" }}>BarDashboard</h3>
+    <div style={{ width: "100%" }}>
+      <h3 style={{ height: 30, borderBottom: "1px solid gray" }}>
+        BarDashboard
+      </h3>
       <Chart
-        width={"700px"}
-        height={"100%"}
+        width={"100%"}
+        height={"calc(100% - 30px)"}
         chartType="BarChart"
         loader={<div>Loading Chart</div>}
-        data={[
-          ["Name", "Age"],
-          ["Michael", 12],
-          ["Elisa", 20],
-          ["Robert", 7],
-          ["John", 54],
-          ["Jessica", 22],
-          ["Aaron", 3],
-          ["Margareth", 42],
-          ["Miranda", 33],
-        ]}
+        data={data}
         rootProps={{ "data-testid": "6" }}
         chartPackages={["corechart", "controls"]}
         render={({ renderControl, renderChart }) => {

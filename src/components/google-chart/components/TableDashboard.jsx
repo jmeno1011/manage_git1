@@ -3,12 +3,14 @@ import { Chart } from "react-google-charts";
 
 const TableDashboard = () => {
   return (
-    <div>
-      <h3>TableDashboard</h3>
+    <div style={{ width: "100%" }}>
+      <h3 style={{ height: 30, borderBottom: "1px solid gray" }}>
+        TableDashboard
+      </h3>
       <Chart
         chartType="Table"
         width="100%"
-        height="350px"
+        height={"calc(100% - 30px)"}
         data={data}
         chartPackages={["corechart", "controls"]}
         controls={[
