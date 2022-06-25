@@ -1,6 +1,8 @@
 import React from "react";
 import Bar from "./components/Bar";
 import BarDashboard from "./components/BarDashboard";
+import ColumnChart from "./components/ColumnChart";
+import PieChart from "./components/PieChart";
 import TableDashboard from "./components/TableDashboard";
 
 const GDash = () => {
@@ -13,6 +15,10 @@ const GDash = () => {
       <TableDashboard />
       <hr />
       <Bar />
+      <hr />
+      <ColumnChart />
+      <hr />
+      <PieChart />
     </div>
   );
 };
