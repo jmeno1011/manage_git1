@@ -7,7 +7,6 @@ const Todolist = () => {
   const [todos, setTodos] = useState(data);
   return (
     <Layout>
-      {/* <h1 style={{ marginBottom: "16px" }}>Todolist</h1> */}
       <ListBox>
         <TodoHeader />
         <TodolistAdd />
@@ -44,8 +43,7 @@ const ListBox = styled.div`
 
 const TodoHeader = () => {
   const [now, setNow] = useState(new Date());
-  //   const now = new Date();
-  console.log(now);
+
   const WEEKDAY = [
     "Sunday",
     "Monday",
@@ -55,6 +53,7 @@ const TodoHeader = () => {
     "Friday",
     "Saturday",
   ];
+
   const FULL_MONTH = [
     "January",
     "February",
@@ -69,6 +68,7 @@ const TodoHeader = () => {
     "November",
     "December",
   ];
+
   const SHORT_MONTH = [
     "Jan",
     "Feb",
@@ -83,6 +83,7 @@ const TodoHeader = () => {
     "Nov",
     "Dec",
   ];
+
   return (
     <Header>
       <Icon icon="charm:menu-hamburger" />
@@ -126,7 +127,8 @@ const TodolistAdd = () => {
     <Adder>
       <Icon icon="dashicons:plus-alt2" />
       {/* <Icon icon="emojione-monotone:heavy-plus-sign" /> */}
-      <div>Add New</div>
+      {/* <div>Add New</div> */}
+      <input type={"text"} placeholder="Add New" />
     </Adder>
   );
 };
@@ -144,12 +146,23 @@ const Adder = styled.div`
     height: 30px;
     width: 30px;
     margin-right: 16px;
+    cursor: pointer;
   }
   h2 {
     font-size: 30px;
   }
   div {
     font-size: 18px;
+  }
+  input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #308bd9;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
   }
   margin-bottom: 32px;
 `;
@@ -217,5 +230,6 @@ const Item = styled.div`
     height: 24px;
     position: absolute;
     right: 16px;
+    cursor: pointer;
   }
 `;
