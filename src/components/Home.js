@@ -39,6 +39,9 @@ const Home = () => {
             <li>
               <Link to={"/google-chart"}>구글 차트</Link>
             </li>
+            <li>
+              <Link to={"/mui"}>MUI</Link>
+            </li>
           </ul>
         </Menu>
       </Header>

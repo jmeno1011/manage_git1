@@ -13,6 +13,7 @@ import DevConfirm from "./components/DevConfirm";
 import LoginForm from "./components/LoginForm";
 import Todolist from "./components/todolist/Todolist";
 import GoogleChart from "./components/google-chart/GoogleChart";
+import Mui from "./components/mui/Mui";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="login" element={<LoginForm />} />
         <Route path="todolist" element={<Todolist />} />
         <Route path="google-chart" element={<GoogleChart />} />
+        <Route path="mui" element={<Mui />} />
       </Route>
     </Routes>
   );
