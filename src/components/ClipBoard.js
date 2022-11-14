@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import "./ClipBoard.css";
-import { useNavigate } from "react-router-dom";
 
 const ClipBoard = () => {
-  const navigate = useNavigate();
   const pre_text = "복사 할 내용 1";
   const [initext, setInitext] = useState("복사 할 내용 2");
   const [visual, setVisual] = useState(false);
